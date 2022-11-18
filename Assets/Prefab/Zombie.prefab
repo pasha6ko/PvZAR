@@ -128,8 +128,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Diraction: {x: 0, y: 0, z: -1}
-  MovementSpeed: 0.5
+  MainMovementSpeed: 2
+  CoolDown: 2
   PlantMask:
     serializedVersion: 2
     m_Bits: 8
-  hp: 100
+  hp: 2379
+  Power: 40

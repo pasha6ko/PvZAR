@@ -10,6 +10,8 @@ public class Plant : MonoBehaviour
     [SerializeField] int hp;
 
     float Clock;
+    List<Zombie> TargetZombies = new List<Zombie>(); // Зомби котороые поедают обект 
+
 
     void Start()
     {
@@ -27,14 +29,25 @@ public class Plant : MonoBehaviour
             Destroy(clone,10);
         }
     }
-    public bool GetDamage(int rate)
+    public void GetDamage(int rate)
     {
         hp -= rate;
         if (hp <= 0)
         {
+            foreach(Zombie zombie in TargetZombies)
+            {
+                zombie.ChangeState(false);
+            }
             Destroy(gameObject);
-            return true;
+            
         }
-        return false;
+    }
+
+    public void AddZombieToPlantTarget(Zombie z)
+    {
+        if (!TargetZombies.Contains(z))
+        {
+            TargetZombies.Add(z);
+        }
     }
 }

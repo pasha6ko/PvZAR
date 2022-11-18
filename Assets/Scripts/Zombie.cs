@@ -19,6 +19,7 @@ public class Zombie : MonoBehaviour
 
     private void Start()
     {
+        
         MoveSpeed = MainMovementSpeed;
     }
     private void Update()
@@ -40,6 +41,7 @@ public class Zombie : MonoBehaviour
         {
             print("Plant");
             TargetPlant = other.gameObject.GetComponent<Plant>();
+            TargetPlant.AddZombieToPlantTarget(GetComponent<Zombie>());
             ChangeState(true);
         }
     }
@@ -51,16 +53,12 @@ public class Zombie : MonoBehaviour
             if (Clock >= CoolDown)
             {
                 Clock = 0;
-                if (TargetPlant.GetDamage(Power))
-                {
-                    ChangeState(false);
-                    TargetPlant = null;
-                }
+                print(TargetPlant);
+                TargetPlant.GetDamage(Power);
             }
         }
     }
-    void ChangeState(bool newState){
-        print("StateHasBennChaned");
+    public void ChangeState(bool newState){
         EatState = newState;
         if (EatState)
         {
@@ -68,6 +66,7 @@ public class Zombie : MonoBehaviour
         }
         else
         {
+            TargetPlant = null;
             MoveSpeed = MainMovementSpeed;
         }
         Clock = 0;
