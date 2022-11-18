@@ -188,6 +188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!4 &30238644 stripped
@@ -225,7 +229,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &41050993
 MonoBehaviour:
@@ -245,6 +249,7 @@ MonoBehaviour:
   Zombies:
   - {fileID: 4433532315203852226, guid: c34f120dd122fb3419b3b56b6e39f933, type: 3}
   OriginDifference: {x: 0, y: 0.62, z: 0}
+  Plants: {fileID: 996195946545839047, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
   SpawnCooldown: 1
   Waves: []
 --- !u!1 &92836544
@@ -425,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1 &207439899
@@ -528,6 +537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!4 &292521397 stripped
@@ -590,6 +603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &369454342
@@ -646,6 +663,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -724,6 +745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!4 &496390031 stripped
@@ -801,6 +826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &629297392
@@ -857,6 +886,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -915,6 +948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &653192443
@@ -971,6 +1008,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -1029,6 +1070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &695043228
@@ -1085,6 +1130,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -1237,6 +1286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!4 &729803862 stripped
@@ -1299,6 +1352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &774060141
@@ -1355,6 +1412,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -1438,6 +1499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &925718107
@@ -1494,6 +1559,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -1552,92 +1621,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
---- !u!1 &937336390
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 937336393}
-  - component: {fileID: 937336392}
-  - component: {fileID: 937336391}
-  m_Layer: 0
-  m_Name: Main Camera (1)
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &937336391
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937336390}
-  m_Enabled: 1
---- !u!20 &937336392
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937336390}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &937336393
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937336390}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1782,6 +1771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1013968392
@@ -1838,6 +1831,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -1900,6 +1897,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -1973,6 +1974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1090561039
@@ -2029,6 +2034,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -2087,6 +2096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1140236386
@@ -2143,6 +2156,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -2201,6 +2218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1159918663
@@ -2258,6 +2279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1185087730
@@ -2314,6 +2339,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -2377,6 +2406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1 &1269868395
@@ -2390,7 +2423,7 @@ GameObject:
   - component: {fileID: 1269868396}
   m_Layer: 0
   m_Name: Field
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2462,7 +2495,7 @@ Transform:
   - {fileID: 2007146884}
   - {fileID: 860244793}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1305444734
 PrefabInstance:
@@ -2518,6 +2551,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -2576,6 +2613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1357751092
@@ -2633,6 +2674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1358865225
@@ -2689,6 +2734,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -2777,6 +2826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1541231524
@@ -2834,6 +2887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1574161974
@@ -2890,6 +2947,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -2953,6 +3014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1621306206
@@ -3009,6 +3074,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -3071,6 +3140,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -3160,6 +3233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1679452865
@@ -3216,6 +3293,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -3279,6 +3360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1781071312
@@ -3335,6 +3420,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -3429,6 +3518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1819369690
@@ -3485,6 +3578,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -3543,6 +3640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!4 &1851452210 stripped
@@ -3590,7 +3691,7 @@ Transform:
   - {fileID: 207439900}
   - {fileID: 2047610956}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1901623257
 PrefabInstance:
@@ -3646,6 +3747,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -3734,6 +3839,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -3828,6 +3937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &1980043022
@@ -3884,6 +3997,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -3956,6 +4073,10 @@ PrefabInstance:
     - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
       propertyPath: m_Name
       value: PvZModels (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
@@ -4060,6 +4181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1001 &2105265465
@@ -4117,6 +4242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!4 &2113465800 stripped
@@ -4136,21 +4265,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1798417718, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
-      propertyPath: hp
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1798417718, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
-      propertyPath: CoolDown
-      value: 0.54
-      objectReference: {fileID: 0}
-    - target: {fileID: 1798417719, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 261189692513524698, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 261189692513524698, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4196,26 +4313,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant
       objectReference: {fileID: 0}
-    - target: {fileID: 996195946545839047, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
-      propertyPath: m_TagString
-      value: Plant
-      objectReference: {fileID: 0}
-    - target: {fileID: 1948617525643115794, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2e5a42a9b0d4629429c4d7af11ac69d1, type: 2}
-    - target: {fileID: 5731090601825250880, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2bf00fa4fb246ed449a4ff926cf68426, type: 2}
-    - target: {fileID: 8658159668267482234, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 66b965bf1990f0b498516b6b61277497, type: 2}
-    - target: {fileID: 8898449176822601371, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 66b965bf1990f0b498516b6b61277497, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735d5424c0b4f57478a26a44267d4b85, type: 3}
 --- !u!1001 &1599520110009695916
@@ -4273,6 +4370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PvZModels
       objectReference: {fileID: 0}
+    - target: {fileID: 5513182086162607442, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0040ceb6e75f4ed4189037df7c3ad062, type: 3}
 --- !u!1 &3955998936412314683
@@ -4308,7 +4409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4433532315203852238, guid: c34f120dd122fb3419b3b56b6e39f933, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4433532315203852238, guid: c34f120dd122fb3419b3b56b6e39f933, type: 3}
       propertyPath: m_LocalPosition.x

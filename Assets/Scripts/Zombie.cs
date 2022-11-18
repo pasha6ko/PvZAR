@@ -36,7 +36,6 @@ public class Zombie : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        print("collison");
         if (other.gameObject.tag== "Plant")
         {
             print("Plant");

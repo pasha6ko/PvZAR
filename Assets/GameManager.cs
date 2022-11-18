@@ -9,6 +9,7 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] Transform SpawnPointsParent;
     [SerializeField] GameObject[] Zombies;
     [SerializeField] Vector3 OriginDifference;
+    [SerializeField] GameObject Plants;
 
 
     [SerializeField] float SpawnCooldown;
@@ -29,7 +30,13 @@ public class GameManager : Singleton<GameManager>
         for (int i = 0; i < SpawnPointsParent.childCount; i++)
         {
             SpawnPoints.Add(SpawnPointsParent.GetChild(i));
-            print(SpawnPoints[i]);
+        }
+    }
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Touch(Input.mousePosition);
         }
     }
     private void FixedUpdate()
@@ -49,8 +56,7 @@ public class GameManager : Singleton<GameManager>
         {
             int ZombieIndex = Random.Range(0, Zombies.Length);
             int SpawnPointIndex = Random.Range(0, SpawnPoints.Count);
-            print(Zombies[ZombieIndex]);
-            print(SpawnPoints[SpawnPointIndex]);
+
             Instantiate(Zombies[ZombieIndex], SpawnPoints[SpawnPointIndex].position + OriginDifference, Quaternion.Euler(0, 0, 0));
 
         }
@@ -58,12 +64,18 @@ public class GameManager : Singleton<GameManager>
     void Touch(Vector3 vec)
     {
         Debug.Log("Touch");
+
         Ray ray = Camera.main.ScreenPointToRay(vec);
         RaycastHit hit;
+
         if (Physics.Raycast(ray, out hit))
         {
-
-
+            print("Raycast");
+            if (hit.collider.gameObject.tag == "Ground")
+            {
+                print("Create");
+                Instantiate(Plants, hit.transform.position,Quaternion.Euler(0,0,0));
+            }
         }
     }
 }

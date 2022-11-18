@@ -92,7 +92,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 307080e00f81be546aa60fec02737f3a, type: 2}
+  - {fileID: 2100000, guid: 66b965bf1990f0b498516b6b61277497, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 1798417718}
   m_Layer: 3
   m_Name: Plant
-  m_TagString: Untagged
+  m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,7 +160,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996195946545839047}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 5.165744, y: 10.049009, z: 6.7153883}
@@ -179,7 +179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 8758636303090764660, guid: 77b5778e1441bb64e93305e524656a9e, type: 3}
   ShootPoint: {fileID: 126697387}
-  CoolDown: 2
+  CoolDown: 0.54
+  hp: 100
 --- !u!1 &1087138228218743010
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,7 +242,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd6a3e497e1501f4e9f64c925421f523, type: 2}
+  - {fileID: 2100000, guid: 66b965bf1990f0b498516b6b61277497, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -324,7 +325,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b6ea1c3190d95e74481b1c80224f5bb3, type: 2}
+  - {fileID: 2100000, guid: 2e5a42a9b0d4629429c4d7af11ac69d1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -407,7 +408,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c955586d7e9299948b2073cd81f63f92, type: 2}
+  - {fileID: 2100000, guid: 2bf00fa4fb246ed449a4ff926cf68426, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
