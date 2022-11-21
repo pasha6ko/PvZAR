@@ -5,7 +5,7 @@ using UnityEngine;
 public class Zombie : MonoBehaviour
 {
     [SerializeField] Vector3 Diraction;
-    [SerializeField] float MainMovementSpeed,CoolDown;
+    [SerializeField] float MainMovementSpeed, CoolDown;
     [SerializeField] LayerMask PlantMask;
     [SerializeField] int hp, Power;
 
@@ -19,7 +19,7 @@ public class Zombie : MonoBehaviour
 
     private void Start()
     {
-        
+
         MoveSpeed = MainMovementSpeed;
     }
     private void Update()
@@ -36,7 +36,7 @@ public class Zombie : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag== "Plant")
+        if (other.gameObject.tag == "Plant")
         {
             print("Plant");
             TargetPlant = other.gameObject.GetComponent<Plant>();
@@ -57,7 +57,8 @@ public class Zombie : MonoBehaviour
             }
         }
     }
-    public void ChangeState(bool newState){
+    public void ChangeState(bool newState)
+    {
         EatState = newState;
         if (EatState)
         {
@@ -71,3 +72,5 @@ public class Zombie : MonoBehaviour
         Clock = 0;
     }
 }
+
+    

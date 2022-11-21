@@ -2,16 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#if UNITY_EDITOR
+    using UnityEditor;
+    using System.Net;
+#endif
+
 public class Plant : MonoBehaviour
 {
+    public bool GenerateSun;
+    public int money;
     [SerializeField] GameObject Bullet;
     [SerializeField] Transform ShootPoint;
-    [SerializeField] float CoolDown;
+    public float CoolDown;
+    public int Damage;
     [SerializeField] int hp;
+    
 
     float Clock;
     List<Zombie> TargetZombies = new List<Zombie>(); // Зомби котороые поедают обект 
-
+    GameManager gameManager;
 
     void Start()
     {
@@ -21,12 +30,19 @@ public class Plant : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        Clock += Time.deltaTime;
-        if (Clock >= CoolDown)
+        
+    }
+    public void ActivateAbility()
+    {
+        if (!GenerateSun)
         {
-            Clock = 0;
-            GameObject clone = Instantiate(Bullet, ShootPoint.position,Quaternion.Euler(0,0,0));
-            Destroy(clone,10);
+            GameObject clone = Instantiate(Bullet, ShootPoint.position, Quaternion.Euler(0, 0, 0));
+            clone.GetComponent<Bullet>().Damage = Damage;
+            Destroy(clone, 10);
+        }
+        else
+        {
+            GameManager.singleton.Money += money;
         }
     }
     public void GetDamage(int rate)
@@ -38,6 +54,7 @@ public class Plant : MonoBehaviour
             {
                 zombie.ChangeState(false);
             }
+            GameManager.singleton.RemovePlantEvent();
             Destroy(gameObject);
             
         }
@@ -50,4 +67,5 @@ public class Plant : MonoBehaviour
             TargetZombies.Add(z);
         }
     }
-}
+    }
+

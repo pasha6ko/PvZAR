@@ -115,4 +115,4 @@ MonoBehaviour:
   zombieMask:
     serializedVersion: 2
     m_Bits: 64
-  Damage: 30
+  Damage: 25

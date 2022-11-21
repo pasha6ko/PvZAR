@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4433532315203852239}
   - component: {fileID: 4433532315203852236}
   m_Layer: 6
-  m_Name: Zombie
+  m_Name: ZombieStandart
   m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,10 +128,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Diraction: {x: 0, y: 0, z: -1}
-  MainMovementSpeed: 2
+  MainMovementSpeed: 1
   CoolDown: 2
   PlantMask:
     serializedVersion: 2
     m_Bits: 8
-  hp: 2379
+  hp: 100
   Power: 40

@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] Vector3 Diraction;
     [SerializeField] float BulletSpeed;
     [SerializeField] LayerMask zombieMask;
-    [SerializeField] int Damage;
+    public int Damage;
     void Start()
     {
         
