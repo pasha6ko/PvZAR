@@ -7,6 +7,7 @@ TagManager:
   - Zombie
   - Plant
   - Ground
+  - House
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - UI
   - Zombie
   - Ground
-  - 
+  - Post
   - 
   - 
   - 

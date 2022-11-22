@@ -14,10 +14,7 @@ public class Plant : MonoBehaviour
     [SerializeField] GameObject Bullet;
     [SerializeField] Transform ShootPoint;
     public float CoolDown;
-    public int Damage;
-    [SerializeField] int hp;
-    
-
+    public int Damage,hp, price;
     float Clock;
     List<Zombie> TargetZombies = new List<Zombie>(); // Зомби котороые поедают обект 
     GameManager gameManager;

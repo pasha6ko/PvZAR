@@ -7,7 +7,7 @@ public class Zombie : MonoBehaviour
     [SerializeField] Vector3 Diraction;
     [SerializeField] float MainMovementSpeed, CoolDown;
     [SerializeField] LayerMask PlantMask;
-    [SerializeField] int hp, Power;
+    [SerializeField] int hp, Power, money;
 
     bool EatState = false;
     float MoveSpeed;

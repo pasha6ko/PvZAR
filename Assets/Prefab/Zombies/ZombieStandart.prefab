@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 479a7b041b2e42f439cab15a97d2b422, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128,10 +128,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Diraction: {x: 0, y: 0, z: -1}
-  MainMovementSpeed: 1
+  MainMovementSpeed: 0.6
   CoolDown: 2
   PlantMask:
     serializedVersion: 2
     m_Bits: 8
   hp: 100
   Power: 40
+  money: 5
